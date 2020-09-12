@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg_image">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:id="@+id/linearLayout2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <com.hbb20.CountryCodePicker
+                android:id="@+id/ccp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_round"
+                app:defaultNameCode="IND" />
+
+            <EditText
+                android:id="@+id/NumberInput"
+                android:layout_width="202dp"
+                android:layout_height="42dp"
+                android:background="@drawable/edit_round"
+                android:hint="phone"
+                android:inputType="phone"
+                android:padding="10dp"
+                android:paddingLeft="10dp"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/chat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="CHAT"
+            android:layout_marginTop="5dp"
+            android:onClick="sendMessage"/>
+    </LinearLayout>
+
+</RelativeLayout>

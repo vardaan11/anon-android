@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">anon</string>
+    <string name="item1">Visit Web Version</string>
+    <string name="item2">Privacy</string>
+    <string name="item3">About</string>
+    <string name="item4">Buy me a coffee!</string>
+    <string name="text">Buy me a coffee!</string>
+
+</resources>
