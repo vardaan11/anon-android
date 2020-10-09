@@ -16,7 +16,6 @@ import androidx.appcompat.widget.Toolbar;
 import com.hbb20.CountryCodePicker;
 
 
-
 public class MainActivity extends AppCompatActivity {
     String y;
     String Number;
@@ -41,8 +40,10 @@ public class MainActivity extends AppCompatActivity {
     public void sendMessage(View view)
     {
         Number = NumberInput.getText().toString();
-        Intent myWebLink = new Intent(android.content.Intent.ACTION_VIEW);
-        myWebLink.setData(Uri.parse("https://wa.me/"+ y + Number ));
+        Uri webpage = Uri.parse("https://wa.me/"+ y + Number);
+        Intent myWebLink = new Intent(Intent.ACTION_VIEW, webpage);
+        //myWebLink.setData(Uri.parse("https://wa.me/"+ y + Number ));
+        myWebLink.setPackage("com.whatsapp");
         startActivity(myWebLink);
     }
 
