@@ -4,4 +4,4 @@ Anon aims to be one of a kind app that will facilitate WhatsApp Messaging, Whats
 
 ![<<Anon-Logo>>](Anon_Logo.png)
 
-__To use Anon for WhatsApp Web, visit the [Anon Web Version!](https://darthvardaan.github.io/anon.io/)__ 
+__To use Anon for WhatsApp Web, visit the [Anon Web Version!](https://github.com/darthvardaan/anon)__ 
