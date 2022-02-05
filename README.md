@@ -1,4 +1,4 @@
-# Anon-Android-App
+# Anon for Android
 ### Send Direct WhatsApp Messages
 Anon aims to be one of a kind app that will facilitate WhatsApp Messaging, WhatsApp Calling, WhatsApp Payments without having to save the recipients contact info. This idea originates from people’s need for quick messaging to unknown contacts, on the go!
 
